@@ -244,7 +244,7 @@ header {
     #elementos .textElem p {
       font-size: 1.5em; } }
 #contacto {
-  background-image: url("../img/contact2.jpg");
+  background-image: url("../img/Contact2.jpg");
   background-size: cover;
   position: center;
   background-attachment: fixed; }
