@@ -1,0 +1,61 @@
+header{
+    font-size: 1.8em !important;
+}
+
+#fotoInicio {
+	background-image: url('../img/photo1.jpg');
+	background-size: cover;
+    width: 100%;
+	height: 50em;
+    position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+#bgBlack {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50em;
+}
+
+.divHeader {
+    padding-top: 10% !important;
+    font-size: 4em;
+    .imgPerfil{
+        margin-top: 5%;
+        img {
+            width: 250px;
+        }
+    }
+    .firstText, h3 {
+        font-family: $allFont;  
+        color: #D9CDBB !important;
+        font-size: 1em; 
+        h1 {
+            font-family: $cursiveFont; 
+        } 
+        p {
+            font-size: .5em;
+        }
+    }
+}  
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .divHeader {
+    padding-top: 5% !important;
+    font-size: 1em;
+    h1{
+        font-size: 1.5em;
+    }
+    h3, p {
+        font-size: 1em;
+    }
+    .imgPerfil{
+        margin-top: 15%;
+        img{
+        width: 60%;
+    }
+    }
+}
+}
+

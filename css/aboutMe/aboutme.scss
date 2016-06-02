@@ -1,0 +1,35 @@
+#aboutMe{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	.row {
+		margin-top: 5%;
+	}
+	h2{
+		font-family: $cursiveFont; 
+		color: #D9CDBB !important;
+	}
+	h3, p {
+		font-family: $allFont;
+		color: #D9CDBB !important;
+		font-size: 1.5em;
+	}
+	hr {
+		width: 20%;
+		height: 2px;
+		position: center;
+	}
+	img {
+		width: 100%;
+		height: 250px;
+	}
+}
+
+#aboutMe2 {
+	height: 250px;
+	h2{
+		margin-top: 15%;
+		font-family: $cursiveFont; 
+		color: #D9CDBB !important;
+	}
+}
+

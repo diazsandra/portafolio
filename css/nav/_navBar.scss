@@ -1,0 +1,35 @@
+* {
+	font-family: $allFont;
+	color: #E9EEF2 !important;
+}
+
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+.navbar-brand {
+	color: #E9EEF2 !important; 
+	margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #F5F5F5 !important;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    background-color: rgba(255,255,255,0.30) !important;
+    color: #E9EEF2 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #333333;
+    background-color: rgba(255, 255, 255, 0.30) !important;
+}
+
+.san {
+	font-family: $cursiveFont; 
+	font-size: 2em !important;
+}
+
