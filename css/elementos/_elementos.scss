@@ -6,7 +6,7 @@
 	width: 100%;
 	height: 28em;
 	color: #E9EEF2 !important;
-	padding: 2%;
+	
 	h2 {
 		font-family: $allFont;
 	}
@@ -21,8 +21,15 @@
 	}
 }
 
+.bgblack3 {
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	padding: 3%;
+}
+
 @media (min-width: 300px) and (max-width: 600px) {
 	#elementos {
+		background-size: cover;
 		height: 30em;
 		h2 {
 			font-size: 1.5em;
@@ -37,3 +44,4 @@
 		}
 	}
 }
+
