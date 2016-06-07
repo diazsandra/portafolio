@@ -1,7 +1,19 @@
+#aboutMe2 {
+	padding: 5%;
+	h3, blockquote, cite {
+	color: $default-primary-color !important;
+	}
+	h3 {
+		margin-right: 2%;
+	}
+	cite {
+		font-weight: bolder;
+	}
+}
+
 #skills {
-	background-image: url('../img/html.jpg');
+	background-image: url('../img/html3.jpg');
 	background-size: cover;
-	height: 20em;
     position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -9,21 +21,12 @@
 }
 
 #bgBlack2 {
-	background-color: rgba(0, 0, 0, 0.7);
-	height: 20em;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 5%;
+	.titleSkills {
+	margin-bottom: 5%;
+	color: $light-primary-color;
+	font-family: $cursiveFont;
+}
 }
 
-.circleSkill {
-	border-radius: 50px;
-	width: 74px;
-	height: 74px;
-	background-color: white;
-	padding: 1%;
-}
-
-.symbol {
-	width: 58px;
-	margin: 3px;
-}

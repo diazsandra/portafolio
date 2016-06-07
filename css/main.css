@@ -1,6 +1,10 @@
 * {
-  font-family: "PT Sans Narrow", sans-serif;
-  color: #E9EEF2 !important; }
+  font-family: "Poiret One", cursive;
+  color: #F3F2F0; }
+
+h2 {
+  color: light-primary-color;
+  font-family: "Dancing Script", cursive !important; }
 
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.4) !important; }
@@ -22,11 +26,9 @@
   background-color: rgba(255, 255, 255, 0.3) !important; }
 
 .san {
-  font-family: "Pacifico", cursive !important;
-  font-size: 2em !important; }
-
-header {
-  font-size: 1.8em !important; }
+  font-family: "Dancing Script", cursive !important;
+  font-size: 2.2em !important;
+  color: #B2DFDB !important; }
 
 #fotoInicio {
   background-image: url("../img/sanf3.jpg");
@@ -41,20 +43,23 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   height: 50em; }
 
-.firstText, h3 {
+.firstText {
   margin-top: 10%;
-  font-size: 2em;
-  font-family: "PT Sans Narrow", sans-serif;
-  color: #D9CDBB !important; }
-  .firstText h1, h3 h1 {
-    font-family: "Pacifico", cursive !important; }
-  .firstText p, h3 p {
-    font-size: 1em; }
+  font-size: 1.5em; }
+  .firstText h1 {
+    font-family: "Dancing Script", cursive !important; }
+  .firstText .title {
+    font-size: 1.6em;
+    color: #B2DFDB !important;
+    font-family: "Poiret One", cursive !important;
+    font-weight: bolder; }
+  .firstText p {
+    margin-top: 5%; }
 
 @media (min-width: 300px) and (max-width: 600px) {
   #fotoInicio {
     background-image: url("../img/sanf4.jpg");
-    background-size: cover;
+    width: 100%;
     position: left; }
 
   .firstText {
@@ -62,7 +67,7 @@ header {
 #aboutMe {
   margin-bottom: 5%; }
   #aboutMe h2 {
-    font-family: "Pacifico", cursive !important;
+    font-family: "Dancing Script", cursive !important;
     color: #D9CDBB !important; }
 
 #hexGrid {
@@ -294,37 +299,36 @@ header {
 @media (max-width: 400px) {
   #hexGrid {
     font-size: 13px; } }
+#aboutMe2 {
+  padding: 5%; }
+  #aboutMe2 h3, #aboutMe2 blockquote, #aboutMe2 cite {
+    color: #009688 !important; }
+  #aboutMe2 h3 {
+    margin-right: 2%; }
+  #aboutMe2 cite {
+    font-weight: bolder; }
+
 #skills {
-  background-image: url("../img/html.jpg");
+  background-image: url("../img/html3.jpg");
   background-size: cover;
-  height: 20em;
   position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-repeat: repeat; }
 
 #bgBlack2 {
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 20em;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-
-.circleSkill {
-  border-radius: 50px;
-  width: 74px;
-  height: 74px;
-  background-color: white;
-  padding: 1%; }
-
-.symbol {
-  width: 58px;
-  margin: 3px; }
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5%; }
+  #bgBlack2 .titleSkills {
+    margin-bottom: 5%;
+    color: #B2DFDB;
+    font-family: "Dancing Script", cursive !important; }
 
 #proyectos {
   padding-top: 5%;
   padding-bottom: 5%; }
   #proyectos h3 {
-    font-family: "Pacifico", cursive !important;
+    font-family: "Dancing Script", cursive !important;
     color: #D9CDBB !important;
     margin: 5%;
     font-size: 3em; }
@@ -423,10 +427,10 @@ header {
   height: 28em;
   color: #E9EEF2 !important; }
   #elementos h2 {
-    font-family: "PT Sans Narrow", sans-serif; }
+    font-family: "Poiret One", cursive; }
   #elementos .textElem h2 {
     font-size: 4em;
-    font-family: "Pacifico", cursive !important; }
+    font-family: "Dancing Script", cursive !important; }
   #elementos .textElem p {
     font-size: 2em; }
 
@@ -446,12 +450,12 @@ header {
     #elementos .textElem p {
       font-size: 1.5em; } }
 #contacto {
-  background-image: url("../img/contact2.jpg");
+  background-image: url("../img/contact.jpg");
   background-size: cover;
   position: center;
   background-attachment: fixed; }
   #contacto h3 {
-    font-family: "Pacifico", cursive !important;
+    font-family: "Dancing Script", cursive !important;
     color: #D9CDBB !important;
     font-size: 3.5em;
     margin-bottom: 8%; }

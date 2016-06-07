@@ -1,6 +1,3 @@
-header{
-    font-size: 1.8em !important;
-}
 
 #fotoInicio {
 	background-image: url('../img/sanf3.jpg');
@@ -17,25 +14,29 @@ header{
     height: 50em;
 }
 
-.firstText, h3 {
+.firstText {
     margin-top: 10%;
-        font-size: 2em;
-        font-family: $allFont;  
-        color: #D9CDBB !important;
-        
-        h1 {
-            font-family: $cursiveFont; 
-        } 
-        p {
-           font-size: 1em; 
-        }
+    font-size: 1.5em;
+    h1 {
+        font-family: $cursiveFont; 
+    } 
+    .title {
+        font-size: 1.6em;
+        color: $light-primary-color !important;
+        font-family: $allFont !important;
+        font-weight: bolder;
+    }
+    
+    p {
+        margin-top: 5%;
+    }
     
 }  
 
 @media (min-width: 300px) and (max-width: 600px) {
     #fotoInicio {
         background-image: url('../img/sanf4.jpg');
-        background-size: cover;
+        width: 100%;
         position: left;
     }
    .firstText {

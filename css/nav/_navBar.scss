@@ -1,8 +1,12 @@
 * {
 	font-family: $allFont;
-	color: #E9EEF2 !important;
+	color: #F3F2F0;
 }
 
+h2 {
+	color: light-primary-color;
+	font-family: $cursiveFont;
+}
 
 .navbar-default {
     background-color: rgba(0, 0, 0, 0.4) !important;
@@ -30,6 +34,7 @@
 
 .san {
 	font-family: $cursiveFont; 
-	font-size: 2em !important;
+	font-size: 2.2em !important;
+	color: $light-primary-color !important;
 }
 
