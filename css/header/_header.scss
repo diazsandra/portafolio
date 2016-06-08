@@ -2,7 +2,7 @@
 #fotoInicio {
 	background-image: url('../img/sanf3.jpg');
 	background-size: cover;
-    width: 100%;
+    width: auto;
 	height: 50em;
     position: center;
 	background-repeat: repeat;
@@ -37,7 +37,8 @@
 @media (min-width: 300px) and (max-width: 600px) {
     #fotoInicio {
         background-image: url('../img/sanf4.jpg');
-        width: 100%;
+        width: auto;
+        height: auto;
         position: left;
     }
    .firstText {
