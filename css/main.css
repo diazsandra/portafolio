@@ -364,6 +364,55 @@ h2 {
   font-size: 2em;
   font-weight: bolder; }
 
+#elementos {
+  background-image: url("../img/giphy.gif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%; }
+  #elementos .textElem h2 {
+    font-size: 3.5em;
+    font-family: "Dancing Script", cursive !important;
+    font-weight: bolder;
+    color: #B2DFDB !important; }
+  #elementos .textElem p {
+    font-size: 2em;
+    color: #B2DFDB !important; }
+
+.bgblack3 {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding: 8%; }
+
+.titleSecc2 {
+  margin-bottom: 5%;
+  color: #B2DFDB;
+  font-family: "Dancing Script", cursive !important;
+  font-size: 3.5em;
+  font-weight: bolder; }
+
+@media (min-width: 300px) and (max-width: 600px) {
+  #elementos {
+    background-size: cover;
+    background-attachment: none; }
+    #elementos h2 {
+      font-size: 2.2em; }
+    #elementos .textElem h2 {
+      font-size: 2em; }
+    #elementos .textElem p {
+      font-size: 1.5em; } }
+#contacto {
+  background-color: black; }
+  #contacto p {
+    font-size: 1.5em; }
+  #contacto img {
+    width: 100%;
+    height: 200px; }
+
+.textcontact i {
+  color: #00796B !important;
+  font-size: 2em; }
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -381,7 +430,7 @@ h2 {
   top: 0;
   left: 0;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
   -webkit-transition: all .4s ease-in-out;
   transition: all 0.4s ease-in-out; }
 
@@ -433,65 +482,6 @@ h2 {
   width: 0 !important;
   height: 0 !important; }
 
-#elementos {
-  background-image: url("../img/giphy.gif");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  width: 100%; }
-  #elementos .textElem h2 {
-    font-size: 3.5em;
-    font-family: "Dancing Script", cursive !important;
-    font-weight: bolder;
-    color: #B2DFDB !important; }
-  #elementos .textElem p {
-    font-size: 2em;
-    color: #B2DFDB !important; }
-
-.bgblack3 {
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 100%;
-  padding: 8%; }
-
-.titleSecc2 {
-  margin-bottom: 5%;
-  color: #B2DFDB;
-  font-family: "Dancing Script", cursive !important;
-  font-size: 3.5em;
-  font-weight: bolder; }
-
-@media (min-width: 300px) and (max-width: 600px) {
-  #elementos {
-    background-size: cover;
-    background-attachment: none; }
-    #elementos h2 {
-      font-size: 2.2em; }
-    #elementos .textElem h2 {
-      font-size: 2em; }
-    #elementos .textElem p {
-      font-size: 1.5em; } }
-#contacto {
-  background-image: url("../img/contact.jpg");
-  background-size: cover;
-  position: center;
-  background-attachment: fixed; }
-  #contacto h3 {
-    font-family: "Dancing Script", cursive !important;
-    color: #D9CDBB !important;
-    font-size: 3.5em;
-    margin-bottom: 8%; }
-  #contacto img {
-    width: 100%;
-    height: 200px; }
-
-.textcontact i {
-  color: #D9CDBB !important;
-  font-size: 3em; }
-
-#bgcontacto {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 6%; }
-
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -522,7 +512,7 @@ h2 {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter');
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.9" /><feFuncB type="linear" slope="0.9" /></feComponentTransfer></filter></svg>#filter');
   filter: brightness(0.7);
   -webkit-filter: brightness(0.7); }
 
