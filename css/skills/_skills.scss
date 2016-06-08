@@ -21,12 +21,27 @@
 }
 
 #bgBlack2 {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 5%;
-	.titleSkills {
+	.seccSkill {
+		margin-bottom: 5%;
+		p {
+			font-size: 1.5em;
+		}
+	}
+}
+
+.titleSecc {
 	margin-bottom: 5%;
-	color: $light-primary-color;
+	color: $default-primary-color;
 	font-family: $cursiveFont;
+	font-size: 3.5em;
+	font-weight: bolder;
 }
-}
+
+.skill {
+		font-family: $allFont !important;
+		font-weight: bolder;
+		font-size: 1.8em;
+	}
 

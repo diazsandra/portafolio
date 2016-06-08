@@ -4,35 +4,41 @@
 	background-position: center;
 	background-attachment: fixed;	
 	width: 100%;
-	height: 28em;
-	color: #E9EEF2 !important;
-	
-	h2 {
-		font-family: $allFont;
-	}
+
 	.textElem {
 		h2 {
-			font-size: 4em;
+			font-size: 3.5em;
 			font-family: $cursiveFont;
+			font-weight: bolder;
+			color: $light-primary-color !important;
 		}
 		p {
 			font-size: 2em;
+			color: $light-primary-color !important;
 		}
 	}
 }
 
 .bgblack3 {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.7);
 	height: 100%;
-	padding: 3%;
+	padding: 8%;
+}
+
+.titleSecc2 {
+	margin-bottom: 5%;
+	color: $light-primary-color;
+	font-family: $cursiveFont;
+	font-size: 3.5em;
+	font-weight: bolder;
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
 	#elementos {
 		background-size: cover;
-		height: 30em;
+		background-attachment: none;
 		h2 {
-			font-size: 1.5em;
+			font-size: 2.2em;
 		}
 		.textElem {
 			h2 {

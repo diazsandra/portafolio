@@ -1,12 +1,6 @@
 #proyectos {
 	padding-top: 5%;
-	padding-bottom: 5%;
-	h3 {
-		font-family: $cursiveFont; 
-		color: #D9CDBB !important;
-		margin: 5%;
-		font-size: 3em;
-	}
+	padding-bottom: 10%;
 }
 
 .imgproyectos {
@@ -15,18 +9,25 @@
 }
 
 .close{
-			color: black !important;
-		}
+	color: black !important;
+}
+
+.btn-primary {
+	color: $dark-primary-color !important;
+    background-color: $dark-primary-color !important;
+    border-color: $dark-primary-color  !important;
+}
 
 .btn-primary:hover{
-    color: #ffffff;
-    background-color: #B2A99A !important;
-    border-color: #B2A99A !important;
+    color: $dark-primary-color !important;
+    background-color: $accent-color !important;
+    border-color: $accent-color  !important;
 }
 
 .linkProyectos {
-		color: pink !important;
+		color: $default-primary-color !important;
 		font-size: 2em;
+		font-weight: bolder;
 	}
 
 .hovereffect {

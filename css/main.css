@@ -27,8 +27,9 @@ h2 {
 
 .san {
   font-family: "Dancing Script", cursive !important;
-  font-size: 2.2em !important;
-  color: #B2DFDB !important; }
+  font-size: 2.5em !important;
+  color: #B2DFDB !important;
+  font-weight: bolder; }
 
 #fotoInicio {
   background-image: url("../img/sanf3.jpg");
@@ -47,7 +48,8 @@ h2 {
   margin-top: 10%;
   font-size: 1.5em; }
   .firstText h1 {
-    font-family: "Dancing Script", cursive !important; }
+    font-family: "Dancing Script", cursive !important;
+    font-size: 2em; }
   .firstText .title {
     font-size: 1.6em;
     color: #B2DFDB !important;
@@ -65,10 +67,8 @@ h2 {
   .firstText {
     margin-top: 25%; } }
 #aboutMe {
-  margin-bottom: 5%; }
-  #aboutMe h2 {
-    font-family: "Dancing Script", cursive !important;
-    color: #D9CDBB !important; }
+  padding-top: 5%;
+  padding-bottom: 10%; }
 
 #hexGrid {
   overflow: hidden;
@@ -120,18 +120,19 @@ h2 {
   height: 100%;
   margin: 0 auto; }
 
-.hex h1, .hex p {
+.hex h2, .hex p {
   width: 102%;
   left: -1%;
   /* prevent line on the right where background doesn't cover image */
   padding: 5%;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 97, 107, 0.9);
   font-weight: 300;
+  font-family: "Poiret One", cursive !important;
   -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
   transition: transform .2s ease-out, opacity .3s ease-out; }
 
-.hex h1 {
+.hex h2 {
   bottom: 50%;
   padding-top: 50%;
   font-size: 1.5em;
@@ -140,7 +141,7 @@ h2 {
   -ms-transform: translateY(-100%) translatez(-1px);
   transform: translateY(-100%) translatez(-1px); }
 
-.hex h1:after {
+.hex h2:after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -150,6 +151,7 @@ h2 {
   border-bottom: 1px solid #fff; }
 
 .hex p {
+  font-size: 1.2em;
   top: 50%;
   padding-bottom: 50%;
   -webkit-transform: translateY(100%) translatez(-1px);
@@ -157,7 +159,7 @@ h2 {
   transform: translateY(100%) translatez(-1px); }
 
 /*** HOVER EFFECT  **********************************************************************/
-.hexIn:hover h1, .hexIn:focus h1,
+.hexIn:hover h2, .hexIn:focus h2,
 .hexIn:hover p, .hexIn:focus p {
   -webkit-transform: translateY(0%) translatez(-1px);
   -ms-transform: translateY(0%) translatez(-1px);
@@ -317,21 +319,28 @@ h2 {
   background-repeat: repeat; }
 
 #bgBlack2 {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 5%; }
-  #bgBlack2 .titleSkills {
-    margin-bottom: 5%;
-    color: #B2DFDB;
-    font-family: "Dancing Script", cursive !important; }
+  #bgBlack2 .seccSkill {
+    margin-bottom: 5%; }
+    #bgBlack2 .seccSkill p {
+      font-size: 1.5em; }
+
+.titleSecc {
+  margin-bottom: 5%;
+  color: #009688;
+  font-family: "Dancing Script", cursive !important;
+  font-size: 3.5em;
+  font-weight: bolder; }
+
+.skill {
+  font-family: "Poiret One", cursive !important;
+  font-weight: bolder;
+  font-size: 1.8em; }
 
 #proyectos {
   padding-top: 5%;
-  padding-bottom: 5%; }
-  #proyectos h3 {
-    font-family: "Dancing Script", cursive !important;
-    color: #D9CDBB !important;
-    margin: 5%;
-    font-size: 3em; }
+  padding-bottom: 10%; }
 
 .imgproyectos {
   width: 100%;
@@ -340,14 +349,20 @@ h2 {
 .close {
   color: black !important; }
 
+.btn-primary {
+  color: #00796B !important;
+  background-color: #00796B !important;
+  border-color: #00796B !important; }
+
 .btn-primary:hover {
-  color: #ffffff;
-  background-color: #B2A99A !important;
-  border-color: #B2A99A !important; }
+  color: #00796B !important;
+  background-color: #FF4081 !important;
+  border-color: #FF4081 !important; }
 
 .linkProyectos {
-  color: pink !important;
-  font-size: 2em; }
+  color: #009688 !important;
+  font-size: 2em;
+  font-weight: bolder; }
 
 .hovereffect {
   width: 100%;
@@ -423,28 +438,34 @@ h2 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  width: 100%;
-  height: 28em;
-  color: #E9EEF2 !important; }
-  #elementos h2 {
-    font-family: "Poiret One", cursive; }
+  width: 100%; }
   #elementos .textElem h2 {
-    font-size: 4em;
-    font-family: "Dancing Script", cursive !important; }
+    font-size: 3.5em;
+    font-family: "Dancing Script", cursive !important;
+    font-weight: bolder;
+    color: #B2DFDB !important; }
   #elementos .textElem p {
-    font-size: 2em; }
+    font-size: 2em;
+    color: #B2DFDB !important; }
 
 .bgblack3 {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
-  padding: 3%; }
+  padding: 8%; }
+
+.titleSecc2 {
+  margin-bottom: 5%;
+  color: #B2DFDB;
+  font-family: "Dancing Script", cursive !important;
+  font-size: 3.5em;
+  font-weight: bolder; }
 
 @media (min-width: 300px) and (max-width: 600px) {
   #elementos {
     background-size: cover;
-    height: 30em; }
+    background-attachment: none; }
     #elementos h2 {
-      font-size: 1.5em; }
+      font-size: 2.2em; }
     #elementos .textElem h2 {
       font-size: 2em; }
     #elementos .textElem p {
