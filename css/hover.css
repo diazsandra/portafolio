@@ -359,7 +359,6 @@
 
 /* Sink */
 .hvr-sink {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4303,7 +4302,6 @@
 }
 
 .hvr-icon-hang {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);

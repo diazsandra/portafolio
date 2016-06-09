@@ -84,6 +84,10 @@ h2 {
   padding-top: 5%;
   padding-bottom: 10%; }
 
+.modalabout {
+  font-family: "Poiret One", cursive !important;
+  color: #009688 !important; }
+
 #hexGrid {
   overflow: hidden;
   width: 90%;

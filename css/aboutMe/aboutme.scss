@@ -3,6 +3,11 @@
 	padding-bottom: 10%;
 }
 
+.modalabout {
+    font-family: $allFont !important; 
+    color: $default-primary-color !important;
+}
+
 #hexGrid {
     overflow: hidden;
     width: 90%;
